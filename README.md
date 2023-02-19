@@ -1,2 +1,2 @@
 # Donuteria
-[View](https://tomsatomsic.github.io/Donuteria/)
+[View](https://Tomsatomsic.github.io/Donuteria/)
