@@ -31,3 +31,15 @@ body{
     left:1100px;
     top:850px;
 }
+
+#inside{
+ display:none;
+    
+}
+
+#guss{
+    display:none;
+}
+#plocha{
+    display:none;
+}
