@@ -16,30 +16,70 @@ body{
     height: 955px;
     
 }
-#gus{
+
+#welcome{
     display:none;
+    position:absolute;
+    font-family: cursive;
+    font-size: large;
+    left:1465px;
+    top:800px;
 }
 
-#bubble{
-    display:none;
-    position:absolute;
-    top:300px;
-}
-#welcome{
-    position:absolute;
-    display:none;
-    left:1100px;
-    top:850px;
-}
 
 #inside{
  display:none;
-    
+    width:1870px;
+    height:945px;
 }
 
 #guss{
     display:none;
+    position:absolute;
+    left:1500px;
+    top:320px;
 }
 #plocha{
     display:none;
+}
+
+#click{
+    display:none;
+    position:absolute;
+    border-top-color:aqua;
+    border-bottom-color: blue;
+    border-right-color:blue ;
+    border-left-color:darkblue;
+    border-style:groove;
+    left:840px;
+    top:800px;
+    width:100px;
+    text-align:center;
+    
+}
+
+#welcome{
+    display:none;
+    position:absolute;
+font-family: cursive;
+font-size: large;
+left:1500px;
+}
+
+#kuchyn{
+    display:none;
+    position:absolute;
+   top:830px;
+   left:210px;
+   border-color: transparent;
+background-color:lightgray;
+width:100px;
+height:40px;
+}
+
+#kitchen{
+    display:none;
+    position:absolute;
+    width:1870px;
+    height:950px;
 }
