@@ -7,7 +7,7 @@ var welcome = document.getElementById("welcome")
 var click = document.getElementById("click")
 var guss = document.getElementById("guss")
 var kuchyn = document.getElementById("kuchyn")
-
+var back = document.getElementById("back")
 
 
 function Scene() { 
@@ -27,9 +27,18 @@ function Scene2(){
 }
 
 function Scene3(){
+    kitchen.style.display = "flex";
+    back.style.display = "flex";
     kuchyn.style.display = "none";
     welcome.style.display = "none";
     inside.style.display = "none";
     guss.style.display = "none";
-    kitchen.style.display = "flex";
+}
+
+function Back(){
+    inside.style.display = "flex";
+    guss.style.display = "flex";
+    welcome.style.display = "flex";
+    kuchyn.style.display = "flex";
+kitchen.style.display = "none";
 }
