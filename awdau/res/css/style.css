@@ -80,6 +80,17 @@ height:40px;
 #kitchen{
     display:none;
     position:absolute;
-    width:1870px;
-    height:950px;
+   left: 100px;
+   width:1870px;
+   height:950px;
+}
+
+#back{
+    display:none;
+    left:30px;
+    top:20px;
+    font-size: large;
+    color:black;
+    border-style:solid;
+
 }
