@@ -18,12 +18,12 @@ click.style.display = "flex";
 
 
 function Scene2(){
-    click.style.display = "none";
-    restaurant.style.display="none";
     inside.style.display = "flex";
     guss.style.display = "flex";
     welcome.style.display = "flex";
     kuchyn.style.display = "flex";
+    click.style.display = "none";
+    restaurant.style.display="none";
 }
 
 function Scene3(){
