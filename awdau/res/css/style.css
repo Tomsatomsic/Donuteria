@@ -1,4 +1,5 @@
 body{
+    background-color: bisque;
     user-select: none;
     zoom:100%;
 }
@@ -81,8 +82,8 @@ height:40px;
     display:none;
     position:absolute;
    left: 100px;
-   width:1870px;
-   height:950px;
+   width:1778px;
+   height:945px;
 }
 
 #back{
@@ -93,4 +94,8 @@ height:40px;
     color:black;
     border-style:solid;
 
+}
+#toilets{
+    display:none;
+    position:absolute;
 }
