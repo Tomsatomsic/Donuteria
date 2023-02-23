@@ -42,3 +42,12 @@ function Back(){
     kuchyn.style.display = "flex";
 kitchen.style.display = "none";
 }
+
+function Scene4(){
+    customerlist.style.display = "flex";
+    back.style.display = "flex";
+    kuchyn.style.display = "none";
+    welcome.style.display = "none";
+    inside.style.display = "none";
+    guss.style.display = "none";
+}
