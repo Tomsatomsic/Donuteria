@@ -8,6 +8,9 @@ var click = document.getElementById("click")
 var guss = document.getElementById("guss")
 var kuchyn = document.getElementById("kuchyn")
 var back = document.getElementById("back")
+var toilets = document.getElementById("toilets")
+var toilet = document.getElementById("toilet")
+
 
 
 function Scene() { 
@@ -36,6 +39,7 @@ function Scene3(){
 }
 
 function Back(){
+    toilets.style.display = "flex";
     inside.style.display = "flex";
     guss.style.display = "flex";
     welcome.style.display = "flex";
@@ -44,7 +48,7 @@ kitchen.style.display = "none";
 }
 
 function Scene4(){
-    customerlist.style.display = "flex";
+    toilet.style.display = "flex";
     back.style.display = "flex";
     kuchyn.style.display = "none";
     welcome.style.display = "none";
