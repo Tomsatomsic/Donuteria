@@ -30,7 +30,7 @@ body{
 
 #inside{
  display:none;
-    width:1870px;
+    width:1850px;
     height:945px;
 }
 
@@ -83,7 +83,7 @@ height:40px;
     position:absolute;
    left: 100px;
    width:1778px;
-   height:945px;
+   height:950px;
 }
 
 #back{
@@ -96,6 +96,51 @@ height:40px;
 
 }
 #toilets{
+    z-index: 1;
     display:none;
+    position:absolute;
+    left:850px;
+    top:80px;
+}
+
+#toilet{
+    display:none;
+    width:1840px;
+    height:910px;
+}
+
+#doughnut{
+    top:62px;
+    display:none;
+    width:100px;
+    z-index: 2;
+    position:absolute;
+}
+#sprinkles{
+    top:130px;
+    display:none;
+width:100px;
+z-index: 2;
+position:absolute;
+}
+#candystar{
+    top:180px;
+    display:none;
+    width:100px;
+    z-index: 2;
+    position:absolute;
+}
+#marmelade{
+    top:280px;
+    display:none;
+    width:100px;
+    z-index: 2;
+    position:absolute;
+}
+#nutella{
+    top:380px;
+    display:none;
+    width:100px;
+    z-index: 2;
     position:absolute;
 }
