@@ -70,12 +70,13 @@ left:1500px;
 #kuchyn{
     display:none;
     position:absolute;
-   top:830px;
-   left:210px;
+   top:845px;
+   left:139px;
    border-color: transparent;
 background-color:lightgray;
-width:100px;
+width:150px;
 height:40px;
+text-align: center;
 }
 
 #kitchen{
@@ -96,11 +97,12 @@ height:40px;
 
 }
 #toilets{
-    z-index: 1;
+    width:100px;
     display:none;
     position:absolute;
     left:850px;
     top:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #toilet{
@@ -198,10 +200,12 @@ position:absolute;
     display:none;
     right:0px;
     top:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #coinss{
     display:none;
     position:absolute;
     right:40px;
     top:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
