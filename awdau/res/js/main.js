@@ -135,8 +135,7 @@ function sprinkledonutus(){
     sprinkledonut.style.display = "none";
     nutelladonut.style.display = "none";
     kobliha.style.display = "none";
-        coins = coins + amount;
-        document.getElementById("coins").innerHTML = coins;
+       
     }
 
 
