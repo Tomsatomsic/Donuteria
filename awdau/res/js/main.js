@@ -142,4 +142,5 @@ let coins = 0;
     coins += 1;
     document.getElementById('coins').innerHTML = coins;
     }
-
+//snazil jsem se nastavit, aby tlacitko bylo kliknutelne jenom potom co kliknu nejaky z predmetu na liste
+//nenasel jsem jak
