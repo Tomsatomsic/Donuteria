@@ -24,7 +24,8 @@ var serve = document.getElementById("serve")
 var coinss = document.getElementById("coinss")
 var coiners = document.getElementById("coins")
 
-let coins = 0;
+
+
 
 
 
@@ -130,13 +131,15 @@ function sprinkledonutus(){
 }
 
 
-    function Serve (amount){
+let coins = 0;
+
+
+    function Serve (){
         dunut.style.display = "none";
     sprinkledonut.style.display = "none";
     nutelladonut.style.display = "none";
     kobliha.style.display = "none";
-       
+    coins += 1;
+    document.getElementById('coins').innerHTML = coins;
     }
-
-
 
